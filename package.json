@@ -1,0 +1,16 @@
+{
+  "name": "payment-app",
+  "version": "1.0.0",
+  "description": "to verify payment information",
+  "main": "src/app/index.js",
+  "scripts": {
+    "start": "nodemon src/server.js --port 3037 --ip 127.0.0.1",
+    "test": "mocha src/tests"
+  },
+  "author": "mdevanalamath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9"
+  }
+}
